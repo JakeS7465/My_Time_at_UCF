@@ -1,0 +1,32 @@
+@media screen and (min-width: 0px) {
+    .Pgrid {
+    display: grid;
+    background-image: url(Images/Baseball_01.jpg);
+    float: left;
+    }
+     .grid-item-p2{
+        font-size: $gridts;
+        font-family: $gridff;
+        color: $gridtc;
+        }
+     .grid-item-p3{
+        font-size: $gridts;
+        font-family: $gridff;
+        color: $gridtc;
+        }
+    .grid-item-p4{
+        font-size: $gridts;
+        font-family: $gridff;
+        color: $gridtc;
+        }
+        img{
+            display: block;
+            width: 65%;
+            padding: 10px;
+            margin-left:auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-right: auto;
+            border: 100px rgba(255, 255, 255, 0.701);
+        }
+}

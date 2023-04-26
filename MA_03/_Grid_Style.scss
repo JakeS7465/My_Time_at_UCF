@@ -1,0 +1,31 @@
+@media screen and (min-width: 0px) {
+    .grid {
+    display: grid;
+    background-image: url(Images/Campus.jpg);
+    float: left;
+    }
+    .grid-item-01{
+        background-color: #ffffffec;
+        font-size: $gridts;
+        font-family: $gridff;
+        color: $gridtc;
+        }
+     .grid-item-02{
+        background-color: #ffffffec;
+        font-size: $gridts;
+        font-family: $gridff;
+        color: $gridtc;
+        }
+     .grid-item-03{
+        background-color: #ffffffec;
+        font-size: $gridts;
+        font-family: $gridff;
+        color: $gridtc;
+        }
+    .grid-item-04{
+        background-color: #ffffffec;
+        font-size: $gridts;
+        font-family: $gridff;
+        color: $gridtc;
+        }
+}

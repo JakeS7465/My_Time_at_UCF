@@ -1,11 +1,11 @@
 h1 {
   font-family: Monospace;
+  padding: 10px;
   font-size: 35px;
   color: black;
   background-color: rgb(255, 231, 137);
   border: 1px black;
-  text-align: center;
-  width: 550px;
+  width: 35%;
   word-spacing: -10px;
 }
 
@@ -167,8 +167,7 @@ body {
   }
   ul li img {
     width: 60px;
-    margin-top: 22px;
-    margin-left: 30px;
+    padding: 22px;
   }
 }
 * {
@@ -201,7 +200,6 @@ body {
   ul li img {
     display: none;
     width: 60px;
-    margin-top: 22px;
   }
   ul li ul li:hover a {
     color: rgba(255, 104, 104, 0.753);
@@ -211,7 +209,6 @@ body {
   .Pgrid {
     display: grid;
     background-image: url(Images/Baseball_01.jpg);
-    float: left;
   }
   .grid-item-p2 {
     font-size: 14px;
@@ -232,10 +229,6 @@ body {
     display: block;
     width: 65%;
     padding: 10px;
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
     border: 100px rgba(255, 255, 255, 0.701);
   }
 }

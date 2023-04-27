@@ -31,12 +31,15 @@ background-color: $navbc;
 padding: 20px;
 border-radius: 0px 0px 4px 4px;
 }
+//add highlight
 ul li:hover ul {
 display: block;
 }
+//highlight color
 nav ul li ul li a:hover{
 background-color: rgba(255, 217, 0, 0.623);
 }
+//show image
 ul li img {
 width: $navis;
 padding: 22px;

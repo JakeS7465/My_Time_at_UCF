@@ -5,4 +5,5 @@ if (hour < 18) {
 } else {
   greeting = "Good evening!";
 }
-document.getElementById("demo").innerHTML = greeting;
+document.getElementById("greeting").innerHTML = greeting;
+//if else statement based on time

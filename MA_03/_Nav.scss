@@ -1,3 +1,4 @@
+//get rid off gaps
 *{
     margin: 0;
     padding: 0;
@@ -24,10 +25,12 @@ font-family: $navff;
 color: $navtc;
 padding: 10px;
 }
+//block the image at this size
 ul li img {
 display: none;
 width: $navis;
 }
+//make a color that will be obvious
 ul li ul li:hover a{
 color: rgba(255, 104, 104, 0.753);
 }

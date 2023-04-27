@@ -1,6 +1,7 @@
 @media screen and (min-width: 0px) {
     .Pgrid {
     display: grid;
+    //switch background image
     background-image: url(Images/Baseball_01.jpg);
     }
      .grid-item-p2{
@@ -18,6 +19,7 @@
         font-family: $gridff;
         color: $gridtc;
         }
+        //picture parameters
         img{
             display: block;
             width: 65%;
